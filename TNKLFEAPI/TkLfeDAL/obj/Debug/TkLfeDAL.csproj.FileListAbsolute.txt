@@ -1,0 +1,7 @@
+D:\TNKLFE\TNKLFEAPI\TkLfeDAL\bin\Debug\TkLfeDAL.dll
+D:\TNKLFE\TNKLFEAPI\TkLfeDAL\bin\Debug\TkLfeDAL.pdb
+D:\TNKLFE\TNKLFEAPI\TkLfeDAL\bin\Debug\Common.dll
+D:\TNKLFE\TNKLFEAPI\TkLfeDAL\bin\Debug\Common.pdb
+D:\TNKLFE\TNKLFEAPI\TkLfeDAL\obj\Debug\TkLfeDAL.csprojResolveAssemblyReference.cache
+D:\TNKLFE\TNKLFEAPI\TkLfeDAL\obj\Debug\TkLfeDAL.dll
+D:\TNKLFE\TNKLFEAPI\TkLfeDAL\obj\Debug\TkLfeDAL.pdb

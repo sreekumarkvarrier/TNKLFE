@@ -1,0 +1,4 @@
+D:\TNKLFE\TNKLFEAPI\TkLfeModel\bin\Debug\TkLfeModel.dll
+D:\TNKLFE\TNKLFEAPI\TkLfeModel\bin\Debug\TkLfeModel.pdb
+D:\TNKLFE\TNKLFEAPI\TkLfeModel\obj\Debug\TkLfeModel.dll
+D:\TNKLFE\TNKLFEAPI\TkLfeModel\obj\Debug\TkLfeModel.pdb

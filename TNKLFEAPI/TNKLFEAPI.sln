@@ -1,11 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TNKLFEAPI", "TNKLFEAPI\TNKLFEAPI.csproj", "{956B4D1C-0400-4B01-930F-D61736ED1276}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TNKLFEAPI.Tests", "TNKLFEAPI.Tests\TNKLFEAPI.Tests.csproj", "{EA370843-5573-4E72-9220-5BFEBF26FED4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{434907A8-7682-473C-ABA1-88CF3E540ADB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TkLfeBAL", "TkLfeBAL\TkLfeBAL.csproj", "{5517006C-E129-434D-969A-5EB0726C908B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TkLfeModel", "TkLfeModel\TkLfeModel.csproj", "{87D42406-B2A3-4123-A0AD-1B18431B3BD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TkLfeDAL", "TkLfeDAL\TkLfeDAL.csproj", "{6EA9F5F4-6F63-4339-BD63-5882E3712E08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{EA370843-5573-4E72-9220-5BFEBF26FED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA370843-5573-4E72-9220-5BFEBF26FED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA370843-5573-4E72-9220-5BFEBF26FED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{434907A8-7682-473C-ABA1-88CF3E540ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{434907A8-7682-473C-ABA1-88CF3E540ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{434907A8-7682-473C-ABA1-88CF3E540ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{434907A8-7682-473C-ABA1-88CF3E540ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5517006C-E129-434D-969A-5EB0726C908B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5517006C-E129-434D-969A-5EB0726C908B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5517006C-E129-434D-969A-5EB0726C908B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5517006C-E129-434D-969A-5EB0726C908B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87D42406-B2A3-4123-A0AD-1B18431B3BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D42406-B2A3-4123-A0AD-1B18431B3BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D42406-B2A3-4123-A0AD-1B18431B3BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D42406-B2A3-4123-A0AD-1B18431B3BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA9F5F4-6F63-4339-BD63-5882E3712E08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA9F5F4-6F63-4339-BD63-5882E3712E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA9F5F4-6F63-4339-BD63-5882E3712E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA9F5F4-6F63-4339-BD63-5882E3712E08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

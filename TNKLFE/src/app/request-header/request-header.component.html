@@ -1,0 +1,29 @@
+<div *ngIf="request">
+    <h2>{{request.Requester | uppercase}} Request</h2>
+    <div><span>id: </span>{{request.Id}}</div>
+    <div>
+      <label>Summary:
+        <input [(ngModel)]="request.Summary" class="TextBox"/>
+      </label>
+    </div>
+    <div>
+        <label>Description:
+          <input [(ngModel)]="request.Description" class="TextArea" />
+        </label>
+      </div>
+
+ 
+      
+
+
+    
+
+  </div>
+
+  
+  <ul>
+      <li><strong>Id:</strong> {{ request.Id }}</li>
+      <li><strong>Requester:</strong> {{ request.Requester }}</li>
+      <li><strong>Summary:</strong> {{ request.Summary }}</li>
+      <li><strong>Description:</strong> {{ request.Description }}</li>
+  </ul>

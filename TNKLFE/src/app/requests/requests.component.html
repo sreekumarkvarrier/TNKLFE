@@ -1,0 +1,14 @@
+<ul>
+  <li *ngFor="let request of supportRequests">
+     
+    <h3>{{ request.Requester }}</h3>
+
+    <ul>
+      <li>{{ request.Id }}</li>
+      <li>{{ request.Summary }}</li>
+      <li><p>{{ request.Description }}</p></li>
+      <li><a routerLink="/request/{{request.Id}}">view</a></li>
+    </ul>
+  </li>
+</ul>
+

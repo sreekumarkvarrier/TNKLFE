@@ -41,12 +41,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RequestDAL.cs" />
     <Compile Include="UserDAL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{434907A8-7682-473C-ABA1-88CF3E540ADB}</Project>
       <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TkLfeModel\TkLfeModel.csproj">
+      <Project>{87D42406-B2A3-4123-A0AD-1B18431B3BD0}</Project>
+      <Name>TkLfeModel</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

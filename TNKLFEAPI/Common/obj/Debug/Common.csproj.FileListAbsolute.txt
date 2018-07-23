@@ -2,3 +2,8 @@ D:\TNKLFE\TNKLFEAPI\Common\bin\Debug\Common.dll
 D:\TNKLFE\TNKLFEAPI\Common\bin\Debug\Common.pdb
 D:\TNKLFE\TNKLFEAPI\Common\obj\Debug\Common.dll
 D:\TNKLFE\TNKLFEAPI\Common\obj\Debug\Common.pdb
+D:\GitHub\TNKLFE\TNKLFE\TNKLFEAPI\Common\bin\Debug\Common.dll
+D:\GitHub\TNKLFE\TNKLFE\TNKLFEAPI\Common\bin\Debug\Common.pdb
+D:\GitHub\TNKLFE\TNKLFE\TNKLFEAPI\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\GitHub\TNKLFE\TNKLFE\TNKLFEAPI\Common\obj\Debug\Common.dll
+D:\GitHub\TNKLFE\TNKLFE\TNKLFEAPI\Common\obj\Debug\Common.pdb

@@ -97,7 +97,14 @@ namespace Common
                 {
                     foreach (SqlParam parameter in parameters)
                     {
-                        cmd.Parameters.Add(new SqlParameter(parameter.ParamererName, parameter.ParameterValueString));
+                        if(parameter.ParamererType == "Int")
+                        {
+                            cmd.Parameters.Add(new SqlParameter(parameter.ParamererName, parameter.ParameterValueInt));
+                        }
+                        else if(parameter.ParamererType == "String")
+                        { 
+                            cmd.Parameters.Add(new SqlParameter(parameter.ParamererName, parameter.ParameterValueString));
+                        }
                     }
                 }
                 rowCount = cmd.ExecuteNonQuery();

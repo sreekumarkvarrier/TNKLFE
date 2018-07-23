@@ -27,7 +27,7 @@ export class RequestInfoComponent implements OnInit {
   }
   save()
   {
-
+      this.requestService.UpdateRequest(this.request).subscribe(()=>this.goBack())
   }
   goBack(): void {
     this.location.back();

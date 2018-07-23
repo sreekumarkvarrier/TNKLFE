@@ -40,6 +40,9 @@ export class TnklfeRequestService {
  UpdateRequest(request:TnkLfeRequest): Observable<any>
  {
    const url = this.apiUrl+"/UpdateRequest";
+   console.log(request.Description);
+   console.log(request.Summary);
+   
    return this.http.put(url,request,httpOptions)
    .pipe(
       tap(_=> this.log(`updated request id=${request.Id}`)),

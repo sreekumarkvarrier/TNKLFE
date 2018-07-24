@@ -8,20 +8,23 @@ import { MessagesComponent } from './messages/messages.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { RequestInfoComponent } from './request-info/request-info.component';
 import { RequestHeaderComponent } from './request-header/request-header.component';  
-import {FormsModule} from '@angular/forms';
+import {LoginComponent} from './login/login.component';
+import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
     RequestsComponent,
     MessagesComponent,
     RequestInfoComponent,
-    RequestHeaderComponent
+    RequestHeaderComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [TnklfeRequestService],
   bootstrap: [AppComponent]

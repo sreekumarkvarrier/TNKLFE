@@ -7,6 +7,7 @@ import {AppMasterComponent} from './layouts/app-master/app-master.component';
 
 const routes : Routes= 
 [
+  {path:'',redirectTo:'/LoginComponent',pathMatch:'full'},
   {path:'LoginComponent',component:LoginComponent},
       //Site routes goes here 
     { 

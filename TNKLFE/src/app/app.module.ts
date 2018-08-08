@@ -10,6 +10,8 @@ import { RequestInfoComponent } from './request-info/request-info.component';
 import { RequestHeaderComponent } from './request-header/request-header.component';  
 import {LoginComponent} from './login/login.component';
 import {FormsModule,ReactiveFormsModule} from '@angular/forms';
+import { AppMasterComponent } from './layouts/app-master/app-master.component';
+import { AppHeaderComponent } from './layouts/app-header/app-header.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +19,9 @@ import {FormsModule,ReactiveFormsModule} from '@angular/forms';
     MessagesComponent,
     RequestInfoComponent,
     RequestHeaderComponent,
-    LoginComponent
+    LoginComponent,
+    AppMasterComponent,
+    AppHeaderComponent
   ],
   imports: [
     BrowserModule,
